@@ -1,0 +1,41 @@
+{
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "typescript",
+        "javascript",
+        "typescriptreact"
+    ],
+    "eslint.options": {
+        "overrideConfigFile": "./eslint.config.js"
+    },
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "eslint.probe": [
+        "typescript",
+        "javascript",
+        "typescriptreact"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "typescript.format.enable": false,
+    "javascript.format.enable": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+}
